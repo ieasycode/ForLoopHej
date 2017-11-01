@@ -1,0 +1,15 @@
+// ConsoleApplication2.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+
+
+int main()
+{
+	int i; //loop variabel
+	for (i = 0; i < 7; i++) //loop från noll till fem
+		printf("Hej");
+	getchar();
+    return 0;
+}
+
